@@ -7,7 +7,6 @@ import pandasql
 def filter_by_regular(filename):
 
     turnstile_data = pandas.read_csv(filename, encoding='ISO-8859-1')
-    print(turnstile_data)
     q = """
     select * from turnstile_data where DESCn = 'REGULAR';
     """

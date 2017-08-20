@@ -1,0 +1,300 @@
+39131          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39132          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39133          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39134          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39135          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39136          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39137          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+39138          30.08  0.0   0.0           5.0      67.0       75.0      82.0
+
+       precipi  thunder
+0          0.0      0.0
+1          0.0      0.0
+2          0.0      0.0
+3          0.0      0.0
+4          0.0      0.0
+5          0.0      0.0
+6          0.0      0.0
+7          0.0      0.0
+8          0.0      0.0
+9          0.0      0.0
+10         0.0      0.0
+11         0.0      0.0
+12         0.0      0.0
+13         0.0      0.0
+14         0.0      0.0
+15         0.0      0.0
+16         0.0      0.0
+17         0.0      0.0
+18         0.0      0.0
+19         0.0      0.0
+20         0.0      0.0
+21         0.0      0.0
+22         0.0      0.0
+23         0.0      0.0
+24         0.0      0.0
+25         0.0      0.0
+26         0.0      0.0
+27         0.0      0.0
+28         0.0      0.0
+29         0.0      0.0
+...        ...      ...
+39109      0.0      0.0
+39110      0.0      0.0
+39111      0.0      0.0
+39112      0.0      0.0
+39113      0.0      0.0
+39114      0.0      0.0
+39115      0.0      0.0
+39116      0.0      0.0
+39117      0.0      0.0
+39118      0.0      0.0
+39119      0.0      0.0
+39120      0.0      0.0
+39121      0.0      0.0
+39122      0.0      0.0
+39123      0.0      0.0
+39124      0.0      0.0
+39125      0.0      0.0
+39126      0.0      0.0
+39127      0.0      0.0
+39128      0.0      0.0
+39129      0.0      0.0
+39130      0.0      0.0
+39131      0.0      0.0
+39132      0.0      0.0
+39133      0.0      0.0
+39134      0.0      0.0
+39135      0.0      0.0
+39136      0.0      0.0
+39137      0.0      0.0
+39138      0.0      0.0
+
+[39139 rows x 22 columns]
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_4_csv_to_pandas_weekend_temperature.py
+   avg(meantempi)
+0       65.100667
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_5_csv_to_pandas_min_temperature.py
+   avg(mintempi)
+0       61.23886
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_6_entries_histogram.py
+Traceback (most recent call last):
+  File "2_6_entries_histogram.py", line 5, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+
+c:\GIT\udacity-data-science\newyork-subway>pip matplotlib
+Traceback (most recent call last):
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python36\Scripts\pip.exe\__main__.py", line 5, in <module>
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\pip\__init__.py", line 28, in <module>
+    from pip.vcs import git, mercurial, subversion, bazaar  # noqa
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\pip\vcs\subversion.py", line 9, in <mod
+ule>
+    from pip.index import Link
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\pip\index.py", line 31, in <module>
+    from pip.wheel import Wheel, wheel_ext
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\pip\wheel.py", line 39, in <module>
+    from pip._vendor.distlib.scripts import ScriptMaker
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\pip\_vendor\distlib\scripts.py", line 1
+5, in <module>
+    from .resources import finder
+  File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\pip\_vendor\distlib\resources.py", line
+ 20, in <module>
+    from .util import cached_property, get_cache_base, path_to_cache_dir, Cache
+  File "<frozen importlib._bootstrap>", line 961, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 946, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 885, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1157, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1122, in _get_spec
+KeyboardInterrupt
+
+c:\GIT\udacity-data-science\newyork-subway>pip install matplotlib
+Collecting matplotlib
+  Downloading matplotlib-2.0.2-cp36-cp36m-win_amd64.whl (8.9MB)
+    100% |████████████████████████████████| 8.9MB 102kB/s
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=1.5.6 (from matplotlib)
+  Downloading pyparsing-2.2.0-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 1.9MB/s
+Requirement already satisfied: six>=1.10 in c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages (fr
+om matplotlib)
+Requirement already satisfied: pytz in c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages (from ma
+tplotlib)
+Requirement already satisfied: numpy>=1.7.1 in c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages
+(from matplotlib)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading cycler-0.10.0-py2.py3-none-any.whl
+Requirement already satisfied: python-dateutil in c:\users\marcos\appdata\local\programs\python\python36\lib\site-packag
+es (from matplotlib)
+Installing collected packages: pyparsing, cycler, matplotlib
+Successfully installed cycler-0.10.0 matplotlib-2.0.2 pyparsing-2.2.0
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_6_entries_histogram.py
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_6_entries_histogram.py
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_6_entries_histogram.py
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_6_entries_histogram.py
+Traceback (most recent call last):
+  File "2_6_entries_histogram.py", line 35, in <module>
+    entries_histogram(return_data_frame(filename)).show()
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python36\lib\site-packages\matplotlib\pyplot.py", line 253, in sho
+w
+    return _show(*args, **kw)
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python36\lib\site-packages\matplotlib\backend_bases.py", line 193,
+ in __call__
+    self.mainloop()
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python36\lib\site-packages\matplotlib\backends\backend_tkagg.py",
+line 71, in mainloop
+    Tk.mainloop()
+  File "C:\Users\Marcos\AppData\Local\Programs\Python\Python36\lib\tkinter\__init__.py", line 557, in mainloop
+    _default_root.tk.mainloop(n)
+KeyboardInterrupt
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_8_mann_whitney_plus_means.py
+  File "2_8_mann_whitney_plus_means.py", line 31
+    print(U)
+           ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+c:\GIT\udacity-data-science\newyork-subway>python 2_8_mann_whitney_plus_means.py
+Traceback (most recent call last):
+  File "2_8_mann_whitney_plus_means.py", line 6, in <module>
+    import scipy
+ModuleNotFoundError: No module named 'scipy'
+
+c:\GIT\udacity-data-science\newyork-subway>pip install scipy
+Collecting scipy
+  Downloading scipy-0.19.1.tar.gz (14.1MB)
+    100% |████████████████████████████████| 14.1MB 66kB/s
+Installing collected packages: scipy
+  Running setup.py install for scipy ... error
+    Complete output from command c:\users\marcos\appdata\local\programs\python\python36\python.exe -u -c "import setupto
+ols, tokenize;__file__='C:\\Users\\Marcos\\AppData\\Local\\Temp\\pip-build-iw5xjnr_\\scipy\\setup.py';f=getattr(tokenize
+, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install -
+-record C:\Users\Marcos\AppData\Local\Temp\pip-dinhp5lt-record\install-record.txt --single-version-externally-managed --
+compile:
+
+    Note: if you need reliable uninstall behavior, then install
+    with pip instead of using `setup.py install`:
+
+      - `pip install .`       (from a git repo or downloaded source
+                               release)
+      - `pip install scipy`   (last SciPy release on PyPI)
+
+
+    lapack_opt_info:
+    lapack_mkl_info:
+      libraries mkl_rt not found in ['c:\\users\\marcos\\appdata\\local\\programs\\python\\python36\\lib', 'C:\\', 'c:\\
+users\\marcos\\appdata\\local\\programs\\python\\python36\\libs']
+      NOT AVAILABLE
+
+    openblas_lapack_info:
+      libraries openblas not found in ['c:\\users\\marcos\\appdata\\local\\programs\\python\\python36\\lib', 'C:\\', 'c:
+\\users\\marcos\\appdata\\local\\programs\\python\\python36\\libs']
+      NOT AVAILABLE
+
+    atlas_3_10_threads_info:
+    Setting PTATLAS=ATLAS
+    c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\system_info.py:1051: UserWa
+rning: Specified path C:\projects\numpy-wheels\windows-wheel-builder\atlas-builds\atlas-3.11.38-sse2-64\lib is invalid.
+      pre_dirs = system_info.get_paths(self, section, key)
+    <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+      NOT AVAILABLE
+
+    atlas_3_10_info:
+    <class 'numpy.distutils.system_info.atlas_3_10_info'>
+      NOT AVAILABLE
+
+    atlas_threads_info:
+    Setting PTATLAS=ATLAS
+    <class 'numpy.distutils.system_info.atlas_threads_info'>
+      NOT AVAILABLE
+
+    atlas_info:
+    <class 'numpy.distutils.system_info.atlas_info'>
+      NOT AVAILABLE
+
+    c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\system_info.py:572: UserWar
+ning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      self.calc_info()
+    lapack_info:
+      libraries lapack not found in ['c:\\users\\marcos\\appdata\\local\\programs\\python\\python36\\lib', 'C:\\', 'c:\\
+users\\marcos\\appdata\\local\\programs\\python\\python36\\libs']
+      NOT AVAILABLE
+
+    c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\system_info.py:572: UserWar
+ning:
+        Lapack (http://www.netlib.org/lapack/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [lapack]) or by setting
+        the LAPACK environment variable.
+      self.calc_info()
+    lapack_src_info:
+      NOT AVAILABLE
+
+    c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\system_info.py:572: UserWar
+ning:
+        Lapack (http://www.netlib.org/lapack/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+        the LAPACK_SRC environment variable.
+      self.calc_info()
+      NOT AVAILABLE
+
+    Running from scipy source directory.
+    non-existing path in 'scipy\\integrate': 'quadpack.h'
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "C:\Users\Marcos\AppData\Local\Temp\pip-build-iw5xjnr_\scipy\setup.py", line 416, in <module>
+        setup_package()
+      File "C:\Users\Marcos\AppData\Local\Temp\pip-build-iw5xjnr_\scipy\setup.py", line 412, in setup_package
+        setup(**metadata)
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\core.py", line 135,
+ in setup
+        config = configuration()
+      File "C:\Users\Marcos\AppData\Local\Temp\pip-build-iw5xjnr_\scipy\setup.py", line 336, in configuration
+        config.add_subpackage('scipy')
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\misc_util.py", line
+ 1029, in add_subpackage
+        caller_level = 2)
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\misc_util.py", line
+ 998, in get_subpackage
+        caller_level = caller_level + 1)
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\misc_util.py", line
+ 935, in _get_configuration_from_setup_py
+        config = setup_module.configuration(*args)
+      File "scipy\setup.py", line 15, in configuration
+        config.add_subpackage('linalg')
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\misc_util.py", line
+ 1029, in add_subpackage
+        caller_level = 2)
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\misc_util.py", line
+ 998, in get_subpackage
+        caller_level = caller_level + 1)
+      File "c:\users\marcos\appdata\local\programs\python\python36\lib\site-packages\numpy\distutils\misc_util.py", line
+ 935, in _get_configuration_from_setup_py
+        config = setup_module.configuration(*args)
+      File "scipy\linalg\setup.py", line 20, in configuration
+        raise NotFoundError('no lapack/blas resources found')
+    numpy.distutils.system_info.NotFoundError: no lapack/blas resources found
+
+    ----------------------------------------
+Command "c:\users\marcos\appdata\local\programs\python\python36\python.exe -u -c "import setuptools, tokenize;__file__='
+C:\\Users\\Marcos\\AppData\\Local\\Temp\\pip-build-iw5xjnr_\\scipy\\setup.py';f=getattr(tokenize, 'open', open)(__file__
+);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record C:\Users\Marcos\
+AppData\Local\Temp\pip-dinhp5lt-record\install-record.txt --single-version-externally-managed --compile" failed with err
+or code 1 in C:\Users\Marcos\AppData\Local\Temp\pip-build-iw5xjnr_\scipy\
+
+c:\GIT\udacity-data-science\newyork-subway>

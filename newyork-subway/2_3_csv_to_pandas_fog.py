@@ -7,12 +7,12 @@ def return_data_frame(filename):
 
     return pd.read_csv(filename, encoding='ISO-8859-1')
 
-def num_rainy_days(df):
+def max_temp_aggregate_by_fog(df):
     q = """
-    select count(1) from df where rain >= 1 ;
+    select fog, maxtempi  from df group by fog ;
     """
     return pandasql.sqldf(q, locals())
 	
 filename = "turnstile_data_master_with_weather.csv"
 df = return_data_frame(filename)
-print(num_rainy_days(df))
+print(max_temp_aggregate_by_fog(df))

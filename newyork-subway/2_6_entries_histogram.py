@@ -24,10 +24,13 @@ def entries_histogram(df):
     plt.figure()
     
     # your code here to plot a historgram for hourly entries when it is raining
-    df['ENTRIESn_hourly'][df['rain'] == 1].hist()
+    #df['ENTRIESn_hourly'][df['rain'] == 1].hist(color = 'blue', label = 'Dias chuvosos')
     
     # your code here to plot a histogram for hourly entries when it is not raining
-    df['ENTRIESn_hourly'][df['rain'] < 1].hist()
+    df['ENTRIESn_hourly'][df['rain'] < 1].hist(color = 'green', label = 'Dias não Chuvosos')
+    
+    plt.legend()
+    plt.title('Dias Chuvosos vs Não Chuvosos')
     
     return plt
 

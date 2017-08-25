@@ -20,17 +20,40 @@ def return_data_frame(filename):
     return pd.read_csv(filename, encoding='ISO-8859-1')
 
 def entries_histogram(df):
+    #print(df.groupby('rain')['ENTRIESn_hourly'].size())
+
+    bins = 150
+    alpha = 0.5
+    xmin = ymin = 0
+    xmax = 6000
+    ymax = 45000
     
     plt.figure()
-    
     # your code here to plot a historgram for hourly entries when it is raining
-    df['ENTRIESn_hourly'][df['rain'] == 1].hist(color = 'blue', label = 'Dias chuvosos')
+    df['ENTRIESn_hourly'][df['rain']==1].hist(bins=bins, alpha=alpha) 
+
+    # your code here to plot a historgram for hourly entries when it is not raining
+    df['ENTRIESn_hourly'][df['rain']==0].hist(bins=bins, alpha=alpha) 
     
-    # your code here to plot a histogram for hourly entries when it is not raining
-    df['ENTRIESn_hourly'][df['rain'] < 1].hist(color = 'green', label = 'Dias não Chuvosos')
+    plt.axis([xmin, xmax, ymin, ymax])
+    plt.suptitle('Histogram of ENTRIESn_hourly')
+    plt.title("bin of 150")
+    plt.xlabel('ENTRIESn_hourly')
+    plt.ylabel('Frequency')
+    plt.legend(['No rain', 'Rain'])
+
+    plt.figure()
+    # your code here to plot a historgram for hourly entries when it is raining
+    df['ENTRIESn_hourly'].loc[df['rain']==1].hist(bins=30, alpha=alpha) 
     
-    plt.legend()
-    plt.title('Dias Chuvosos vs Não Chuvosos')
+    # your code here to plot a historgram for hourly entries when it is not raining
+    df['ENTRIESn_hourly'].loc[df['rain']==0].hist(bins=30, alpha=alpha) 
+    
+    plt.suptitle("Histogram of ENTRIESn_hourly")
+    plt.title("bin of 30")
+    plt.xlabel('ENTRIESn_hourly')
+    plt.ylabel('Frequency')
+    plt.legend(['No Rain','Rain'])
     
     return plt
 

@@ -1,34 +1,34 @@
-#Visão Geral do Projeto
+# Visão Geral do Projeto
 Neste projeto, você olha para os dados Metro de NY e descobre se mais pessoas andam de metrô quando está chovendo versus quando não está.
 
 Você vai confrontar os dados de metrô de Nova York, usar métodos estatísticos e dados visualização para tirar uma conclusão interessante sobre o metrô com o conjunto de dados que você analisou.
 
-##O que eu preciso para instalar?
+## O que eu preciso para instalar?
 Você vai precisar instalar [Anaconda Scientific Python Distribuição](https://www.continuum.io/downloads)
 Ele deve conter a maioria das bibliotecas e pacotes que você precisa trabalhar nas atribuições.
 
-##Porque este projeto?
+## Porque este projeto?
 Este projeto irá apresentá-lo aos conceitos-chave da ciência de dados, assim você estará preparado para projetos posteriores na Analista de Dados nanodegree, bem como a sua futura carreira como analista de dados.
 Além disso, você será exposto a alguns dos dados mais popular bibliotecas de ciência em Python, como Pandas, Numpy, e outros.
 
-##O que vou aprender?
+## O que vou aprender?
 Você será exposto e aprender habilidades de ciência de dados fundamentais, como:
 * Os dados de disputas
 * Estatística aplicada e aprendizagem de máquina
 * MapReduce
 
-##Por que isso é importante para a minha carreira?
+## Por que isso é importante para a minha carreira?
 Ao completar este projeto, você vai ter exibido todas as habilidades necessário para ser um analista de dados. Além disso, você pode adicionar este projeto para seu currículo, o que pode ajudá-lo a impressionar os recrutadores e contratação gerentes.
 
 
-##Avaliação
+## Avaliação
 Um avaliador Udacity irá analisar e verificar se você fez todos os exercícios do arquivo ipynb bem como as respostas do arquivo pdf.
 Certifique-se de completar todas as perguntas nos conjuntos de problemas e no documento do projeto antes de submeter seu projeto.
 
-##Rubrica
+## Rubrica
 Seu projeto será avaliado por um avaliador Udacity de acordo com este projeto rubrica. Certifique-se de analisá-lo minuciosamente antes de enviar. O seu "projeto atende às especificações" se atender especificações em todos os critérios.
 
-##Submission
+## Submission
 Pronto para enviar seu projeto? Envie seguintes arquivos:
 * O arquivo ipynb com todos os exercícios feitos.
 * O arquivo html que foi exportado do ipynb.
@@ -41,7 +41,7 @@ Se você não quiser enviar seus arquivos através de "Carregar uma Zip", compac
 A revisão pode levar até 7 dias mas a maioria dos projetos é revisado em até 24 horas.
 Se você está tendo problemas para enviar seu projeto ou desejo de verificar o status de sua submissão, envie um email para dataanalyst-project@udacity.com.
 
-##Abrindo o notebook Jupyter
+## Abrindo o notebook Jupyter
 Como mencionado anteriormente, você usará um notebook Jupyter para concluir este projeto. Quando terminar, você enviará uma versão HTML para comentários, por isso não se esqueça de registrar suas respostas quando solicitado!
 
 1. Faça o download do Jupyter Notebook no botão acima.
@@ -64,9 +64,9 @@ Como mencionado anteriormente, você usará um notebook Jupyter para concluir es
 [I 07:30:01.645 NotebookApp] Accepting one-time-token-authenticated connection from ::1
 [I 07:30:03.860 NotebookApp] Kernel started: bf98fb12-e1d0-4739-a371-633986a2a915
 
-#Envio de Projeto
+# Envio de Projeto
 
-##Avaliação
+## Avaliação
 Use a rubrica [Project Rubric](https://review.udacity.com/#!/rubrics/1034/view) para rever seu projeto. Se você está feliz com sua apresentação, então você está pronto para enviar! Se você vê um espaço para melhoria em qualquer categoria na qual você não atende às especificações, continue trabalhando!
 
 Seu projeto será avaliado por um revisor da Udacity de acordo com a mesma [Rubrica do Projeto](https://review.udacity.com/#!/projects/3176718735/rubric). Seu projeto deve "atender às especificações" ou "exceder as especificações" em cada categoria, para que seu envio seja aprovado.

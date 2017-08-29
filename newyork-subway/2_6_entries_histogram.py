@@ -21,6 +21,9 @@ def return_data_frame(filename):
 
 def entries_histogram(df):
     print(df.groupby('rain')['ENTRIESn_hourly'].size())
+	
+    bins30 = np.linspace(0, df['ENTRIESn_hourly'].max(), num=30)
+    print(bins30)
 
     bins = 150
     alpha = 0.5
@@ -49,6 +52,7 @@ def entries_histogram(df):
     # your code here to plot a historgram for hourly entries when it is not raining
     df['ENTRIESn_hourly'][df['rain']==0].hist(bins=30, alpha=alpha, label = 'No rain') 
     
+    #plt.xticks(bins30)
     plt.suptitle("Histogram of ENTRIESn_hourly")
     plt.title("bin of 30")
     plt.xlabel('ENTRIESn_hourly')

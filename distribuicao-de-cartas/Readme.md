@@ -8,10 +8,10 @@ Para os fins desta tarefa, atribua a cada carta um valor: o Ás tem valor de 1, 
 
 Para o resto da aula, você fará o seguinte:
 
-**Distribuição de Valores das Cartas:** Nesta seção, você criará um histograma e responderá perguntas do questionário sobre a distribuição dos valores das cartas.
-**Gerar dados:** Nesta seção, você receberá amostras para uma nova distribuição. Para obter uma amostra única, embaralhe o baralho e tire três cartas dele. (Você terá uma amostragem do baralho sem substituição). Registre as três cartas que você tirou e a soma dos valores delas. Substitua as cartas retiradas do baralho e repita este procedimento de amostragem no total, pelo menos, trinta vezes.
-**Criar Anotações:** Você criará um resumo de suas descobertas.
-**Avaliar as respostas:** Você irá comparar seus resultados com os de um programa de computador que gera os resultados automaticamente.
+* **Distribuição de Valores das Cartas:** Nesta seção, você criará um histograma e responderá perguntas do questionário sobre a distribuição dos valores das cartas.
+* **Gerar dados:** Nesta seção, você receberá amostras para uma nova distribuição. Para obter uma amostra única, embaralhe o baralho e tire três cartas dele. (Você terá uma amostragem do baralho sem substituição). Registre as três cartas que você tirou e a soma dos valores delas. Substitua as cartas retiradas do baralho e repita este procedimento de amostragem no total, pelo menos, trinta vezes.
+* **Criar Anotações:** Você criará um resumo de suas descobertas.
+* **Avaliar as respostas:** Você irá comparar seus resultados com os de um programa de computador que gera os resultados automaticamente.
 
 ## Distribuição de valores das cartas
 Para começar, faça um histograma representando as frequências relativas dos valores quando você distribui as cartas apenas um vez . Ou seja, pegue todas as cartas do baralho e coloque na mesa, digite em uma planilha os valores correspondentes a cada carta, você deve contar 52 cartas no final. Faça um histograma com esses valores. Depois de fazer isso, preencha a caixa de seleção para verificar seu trabalho.
@@ -30,6 +30,10 @@ Quando você pressiona Testar ou Enviar, um conjunto aleatório de trinta ensaio
 Antes de enviar, selecione um valor de semente. Isso garantirá que, se você precisar volta para este questionário, os resultados das cartas aleatório serão os mesmos. Você também pode usar essa semente na seção Avaliar resposta para verificar sua resposta por resultados específicos.
 
 add codigo
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 # Resumo das suas conclusões
 Crie um arquivo PDF ou markdown que contenha o seguinte:
